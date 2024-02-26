@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body{
+    background-image: url(https://www.designi.com.br/images/preview/10283953.jpg);
+}
+
+.formulario{
+    position: relative;
+    background: #ffd000; border: #000000 solid 5px;
+    text-align: center;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+button{
+    margin-bottom: 5px;
+    background: #000000;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+h1{
+    font-size: 2.4em;
+}
+
+p{
+    font-size: 1.4em;
+}
+input{
+    font-size: 1.2em;
+}
+
+button:active{
+    transform: translateY(2px);
+}
